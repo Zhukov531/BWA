@@ -1,3 +1,316 @@
-h1{
-    color: red;
+@import url(../css/_nullstyle.css);
+
+/* ------------- Hero ---------------- */
+.hero {
+    background: url(../img/Hero\ Image\ 1.png) no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: center bottom;
+    color: white;
+    padding: 0 30px;
 }
+.menu {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 32px 0;
+    align-items: center;
+    overflow: hidden;
+}
+.menu ul{
+    display: flex;
+}
+.menu li{
+    margin: 0 50px;
+    color: white;
+}
+.menu-logo{
+    max-width: 75px;
+    max-height: 35px;
+}
+.menu-search{
+    max-width: 25px;
+    max-height: 25px;
+}
+
+@media screen and (max-width:320px) {
+    .menu{
+        max-width: 300px;
+        padding: 15px 0;
+        overflow: hidden;
+    }
+    .menu li{
+        margin: 0 10px;
+        font-size: 10px;
+    }
+    .menu-logo{
+        max-width: 30px;
+    }
+}
+
+/* ----------------- Hero ---------------- */
+.hero-content {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-title {
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hero-text {
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #969696;   
+    max-width: 690px; 
+}
+
+.hero-btn{
+    padding: 12px 60px;
+    margin-top: 16px;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    background: #2E4DEC;
+    transition: 0.5s;
+}
+.hero-btn:hover{
+    padding: 12px 60px;
+    margin-top: 16px;
+    border-radius: 50px;
+    color: #2E4DEC;
+    font-size: 18px;
+    background: white;
+    transition: 0.5s;
+}
+
+@media screen and (max-width:320px) {
+    .hero-content{
+        max-width: 290px;
+    }
+    .hero-title{
+        font-size: 25px;
+    }
+    .hero-text{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .hero-btn{
+        padding: 10px 30px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:375px) {
+    .menu{
+        max-width: 300px;
+        padding: 15px 0;
+        overflow: hidden;
+    }
+    .menu li{
+        margin: 0 10px;
+        font-size: 10px;
+    }
+    .menu-logo{
+        max-width: 30px;
+    }
+    /* ----------------- hero ----------------- */
+    .hero-content{
+        max-width: 310px;
+    }
+    .hero-title{
+        font-size: 35px;
+        line-height: 43px;
+    }
+    .hero-text{
+        font-size: 17px;
+        line-height: 23px;
+    }
+    .hero-btn{
+        padding: 10px 30px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:414px) {
+    .menu{
+        max-width: 390px;
+        padding: 15px 0;
+        overflow: hidden;
+    }
+    .menu li{
+        margin: 0 10px;
+        font-size: 10px;
+    }
+    .menu-logo{
+        max-width: 30px;
+    }
+    /* ----------------- hero ----------------- */
+    .hero-content{
+        max-width: 360px;
+    }
+    .hero-title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .hero-text{
+        font-size: 19px;
+        line-height: 26px;
+        margin-top: 25px;
+    }
+    .hero-btn{
+        padding: 10px 35px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:768px) {
+    .menu{
+        max-width: 700px;
+        padding: 30px 0;
+        overflow: hidden;
+    }
+    .menu li{
+        margin: 0 25px;
+        font-size: 13px;
+    }
+    .menu-logo{
+        max-width: 50px;
+    }
+    /* ----------------- hero ----------------- */
+    .hero-content{
+        max-width: 670px;
+    }
+    .hero-title{
+        font-size: 50px;
+        line-height: 58px;
+        margin-top: 60px;
+    }
+    .hero-text{
+        font-size: 23px;
+        line-height: 32px;
+        margin-top: 40px;
+    }
+    .hero-btn{
+        padding: 15px 50px;
+        font-size: 15px;
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .menu{
+        max-width: 900px;
+        padding: 30px 0;
+        overflow: hidden;
+    }
+    .menu li{
+        margin: 0 25px;
+        font-size: 15px;
+    }
+    .menu-logo{
+        max-width: 65px;
+    }
+    /* ----------------- hero ----------------- */
+    .hero-content{
+        max-width: 1000px;
+    }
+    .hero-title{
+        font-size: 70px;
+        line-height: 78px;
+        margin-top: 60px;
+    }
+    .hero-text{
+        font-size: 25px;
+        line-height: 37px;
+        margin-top: 40px;
+    }
+    .hero-btn{
+        padding: 15px 50px;
+        font-size: 18px;
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .menu{
+        max-width: 250px;
+        padding: 30px 0;
+        overflow: hidden;
+    }
+    .menu li{
+        margin: 0 25px;
+        font-size: 10px;
+    }
+    .menu-logo{
+        max-width: 30px;
+    }
+    /* ----------------- hero ----------------- */
+    .hero-content{
+        max-width: 240px;
+        margin-top: 0px;
+    }
+    .hero-title{
+        font-size: 40px;
+        line-height: 48px;
+        margin: 10px;
+    }
+    .hero-text{
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 15px;
+    }
+    .hero-btn{
+        padding: 10px 30px;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width: 411px) {
+    .menu{
+        max-width: 390px;
+        padding: 30px 0;
+        overflow: hidden;
+    }
+    .menu li{
+        margin: 0 25px;
+        font-size: 13px;
+    }
+    .menu-logo{
+        max-width: 50px;
+    }
+    /* ----------------- hero ----------------- */
+    .hero-content{
+        max-width: 380px;
+    }
+    .hero-title{
+        font-size: 40px;
+        line-height: 48px;
+        margin-top: 10px;
+    }
+    .hero-text{
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+    .hero-btn{
+        padding: 15px 50px;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+}
+
