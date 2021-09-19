@@ -28,6 +28,11 @@ body{
 .menu li{
     margin: 0 50px;
     color: white;
+    transition: 0.5s;
+}
+.menu li:hover{
+    transition: 0.5s;
+    color: #1ABC9C;
 }
 .menu-logo{
     max-width: 75px;
@@ -99,9 +104,9 @@ body{
     padding: 12px 60px;
     margin-top: 16px;
     border-radius: 50px;
-    color: #2E4DEC;
+    color: white;
     font-size: 18px;
-    background: white;
+    background: #1ABC9C;
     transition: 0.5s;
 }
 
@@ -332,10 +337,17 @@ body{
     width: 680px;
     height: 660px;
     background: url(../img/ultra_light\ 1.png);
-    background-size: cover;
+    background-size: 100%;
     display: flex;
+    background-position: center;
     flex-direction: column;
     align-items: center;
+    transition: .5s;
+}
+.flex-1-block1:hover{
+    background-size: 120%;
+    background-position: center;
+    transition: .5s;
 }
 .flex-1-block1 h2{
     font-family: Poppins;
@@ -374,10 +386,17 @@ body{
     background: url(../img/best_resolution\ 1.png);
     width: 680px;
     height: 660px;
-    background-size: cover;
+    background-size: 100%;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: .5s;
+}
+.flex-1-block2:hover{
+    background-size: 120%;
+    background-position: center;
+    transition: .5s;
 }
 .flex-1-block2 h2{
     font-family: Poppins;
@@ -567,4 +586,162 @@ body{
     letter-spacing: 0em;
     text-align: center;
     color: white;    
+    transition: .5s;
+}
+.section-3-block button:hover{
+    background: #1ABC9C;
+    transition: .5s;
+}
+/* ---------------------- Section 4 ---------------- */
+
+.section-4 {
+    margin: 100px 0;
+}
+.section-4-content {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.section-4-title {
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 104px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222222;    
+    max-width: 530px;
+}
+.section-4-review {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.review-4 {
+    border: 1px solid #22222221;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    transition: .5s;
+}
+.review-4:hover{
+    box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.164);
+    transition: .5s;
+}
+.review-4 p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222222;    
+    flex: 1;
+}
+.review-name {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.review-name img{
+    width: 70px;
+    height: 70px;
+}
+.review-name-txt{
+    margin-left: 30px;
+}
+.review-name-txt h3{
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222222;    
+}
+.review-name-txt span{
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #818181;    
+}
+/* ---------------- Footer ------------- */
+.footer {
+    background: black;
+    color: white;
+    padding: 100px;
+}
+.footer-content {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-flex{
+    margin-right: 100px;
+}
+.footer-flex img{
+    width: 68px;
+    height: 32px;
+    margin-right: 20px;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.footer-flex p{
+    max-width: 260px;
+    margin-top: 20px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.548);   
+}
+
+.footer-flex h3{
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.footer-flex ul{
+    margin-top: 30px;
+}
+.footer-flex li{
+    margin-bottom: 15px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.548);    
+}
+.footer-flex li:hover{
+    color: #1ABC9C;
 }
