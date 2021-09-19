@@ -1,5 +1,9 @@
 @import url(../css/_nullstyle.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
 /* ------------- Hero ---------------- */
 .hero {
     background: url(../img/Hero\ Image\ 1.png) no-repeat;
@@ -314,3 +318,256 @@
     }
 }
 
+/* --------------- Section 1 --------------- */
+
+.section-1 {
+    
+}
+.section-1-content {
+    padding: 30px;
+}
+.section-1-flex {
+    display: flex;
+    justify-content: space-around;
+}
+.flex-1-block1 {
+    width: 680px;
+    height: 660px;
+    background: url(../img/ultra_light\ 1.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex-1-block1 h2{
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #222222;
+    margin-top: 20%;    
+}
+.flex-1-block1 span{
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;    
+    color: #222222;
+}
+.flex-1-block1 p{
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;   
+    color: #22222271;
+    max-width: 450px;
+}
+.flex-1-block2 {
+    background: url(../img/best_resolution\ 1.png);
+    width: 680px;
+    height: 660px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex-1-block2 h2{
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20%; 
+}
+.flex-1-block2 p{
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;   
+    color: #ffffff80;
+    max-width: 450px;
+}
+.flex-1-block2 span{
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;    
+    color: #ffffff;
+}
+
+/* -------------------- Section 2 ----------- */
+
+.section-2 {
+    background: #F7F8FA;
+}
+.section-2-content {
+    padding: 80px 140px;
+    display: flex;
+    justify-content: center;
+}
+.section-2-img{
+    width: 342px;
+    height: 358px;
+}
+.section-2-text {
+    margin-left: 80px;
+    max-width: 702px;
+}
+.section-2-text h2{
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222222;    
+}
+.section-2-text p{
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222222; 
+    margin-top: 16px;   
+}
+.sec-2-blocks {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.sec-2-block {
+    max-width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec-2-block h2{
+    font-family: Poppins;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #222222;    
+}
+.sec-2-block p{
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(34, 34, 34, 0,85);    
+}
+
+/* ----------- Section 3 ------------ */
+
+.section-3 {
+}
+.section-3-content {
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-3-content h2{
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #222222;
+}
+.section-3-content p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #818181;   
+    max-width: 480px; 
+    margin-top: 16px;
+}
+/*  Тут находятся 3 блока */
+.section-3-flex {
+    margin-top: 95px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+/* Это каждый блок */
+.section-3-block {
+    display: flex;
+    max-width: 410px;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #2222223b;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+.section-3-block img{
+    max-width: 380px;
+    max-height: 210px;
+}
+.section-3-block h2{
+    margin-top: 30px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #222222;    
+}
+.section-3-block p{
+    margin-top: 10px;
+    max-width: 335px;
+    flex: 1;
+}
+.section-3-block button{
+    margin-top: 30px;
+    background: #2E4DEC;
+    padding: 11px 58px;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;    
+}
